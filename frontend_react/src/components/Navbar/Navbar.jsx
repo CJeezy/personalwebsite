@@ -12,7 +12,7 @@ const [toggle, setToggle] = useState(false);
             <img src={images.icon} alt="logo" />
         </div> */}
         <ul className='app__navbar-links'>
-            {['home', 'about', 'skills', 'work', 'contact'].map((item) => (
+            {['home', 'about', 'skills', 'work'].map((item) => (
                 <li className='app__flex p-test' key={`link-${item}`}>
                     <div />
                     <a href={`#${item}`}>{item}</a>
